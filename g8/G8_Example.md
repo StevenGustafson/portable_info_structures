@@ -7,7 +7,7 @@ embedded in financial writing. The audience includes those in business
 intelligence, finance education, or financial technology. The application is
 accessed via a simple React frontend that connects to a Flask-based API running
 locally or remotely.
----
+
 ## 📘 Methodology
 - The input paragraph is parsed and cleaned using Python NLP techniques.
 - It tokenizes the paragraph into single words, bigrams, and trigrams to detect
@@ -24,7 +24,7 @@ block_2-0">` and `<div id="short-definition__text_1-0">`.
 - The API supports a PUT request to update the input and a GET request to retrieve
 definitions.
 - Cross-origin requests from the frontend are handled using `flask-cors`.
----
+
 ## 📘 Access
 - **Frontend**: Start the React application (e.g., `npm start`) which runs at
 `http://localhost:3000`.
@@ -41,21 +41,19 @@ Investopedia definitions.
 definitions and URLs.
 - Ensure both servers are running simultaneously and that `flask-cors` is enabled
 for communication.
----
+
 ## Structure
 Each definition is returned as an object in a JSON array with the following schema:
-| Field | Type | Description
-|
--|
-|
-|
-|-------------|--------|-----------------------------------------------------------
+
+| Field | Type | Description |
+|-------------|--------|----- |
 | `term` | string | The financial term or phrase detected in the paragraph
 | `definition`| string | A brief definition pulled from Investopedia
-| `url` | string | Direct link to the Investopedia article for further
-reading|
----
+| `url` | string | Direct link to the Investopedia article for further reading|
+
+
 ## 📘 Example
+
 ### Example Request (Frontend React):
 ```json
 PUT /input
