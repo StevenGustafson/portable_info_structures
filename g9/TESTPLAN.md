@@ -1,12 +1,12 @@
-# 🧪 Finance Definition Extractor – Test Plan
+# Finance Definition Extractor – Test Plan
 
-## 📌 Purpose
+## Purpose
 
 This document outlines the testing strategy for ensuring the quality, accuracy, and performance of the Finance Definition Extractor system. It serves as a living reference to guide development, deployment, and maintenance and to ensure that the system remains reliable for users.
 
 ---
 
-## ✅ System Overview
+## System Overview
 
 - **Frontend**: React (GitHub Pages hosted)
 - **Backend**: Flask API (Azure Web App)
@@ -16,7 +16,7 @@ This document outlines the testing strategy for ensuring the quality, accuracy, 
 
 ---
 
-## 🧪 Test Objectives
+## Test Objectives
 
 - Ensure all key features function as expected
 - Verify Investopedia scraping produces correct output
@@ -26,7 +26,7 @@ This document outlines the testing strategy for ensuring the quality, accuracy, 
 
 ---
 
-## 🔍 Functional Testing
+## Functional Testing
 
 | Test Case | Description | Method | Expected Result |
 |-----------|-------------|--------|-----------------|
@@ -40,7 +40,7 @@ This document outlines the testing strategy for ensuring the quality, accuracy, 
 
 ---
 
-## 🚦 Performance Testing
+## Performance Testing
 
 | Test Case | Description | Tool | Target |
 |-----------|-------------|------|--------|
@@ -52,7 +52,7 @@ This document outlines the testing strategy for ensuring the quality, accuracy, 
 
 ---
 
-## 📈 Quality Metrics
+## Quality Metrics
 
 | Metric | Goal |
 |--------|------|
@@ -64,7 +64,7 @@ This document outlines the testing strategy for ensuring the quality, accuracy, 
 
 ---
 
-## ⚠️ Alarms & Monitoring (Planned)
+## Alarms & Monitoring (Planned)
 
 | Alarm | Trigger | Action |
 |-------|---------|--------|
@@ -79,7 +79,7 @@ Planned tools:
 
 ---
 
-## 🔄 Continuous Testing & Maintenance
+## Continuous Testing & Maintenance
 
 - Manual smoke tests on each GitHub push
 - GitHub Actions workflow to verify build integrity
@@ -88,7 +88,7 @@ Planned tools:
 
 ---
 
-## 📌 Status Summary
+## Status Summary
 
 | Area | Status |
 |------|--------|
@@ -100,7 +100,7 @@ Planned tools:
 
 ---
 
-## 👥 Team Responsibilities
+## Team Responsibilities
 
 | Task | Owner |
 |------|-------|
@@ -111,7 +111,7 @@ Planned tools:
 
 ---
 
-## 📦 Future Additions
+## Future Additions
 
 - Pytest framework for backend endpoint validation
 - Frontend Jest tests for component rendering and state flow
